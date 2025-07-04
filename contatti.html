@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sati Yoga Studio</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');</style>
+    <link rel="icon" href="./immagini/icona.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav>
+
+        <img id="logo" src="./immagini/logo.png" alt="logo" width="250px">
+        
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./corsi.html">Corsi</a></li>
+            <li><a href="./chisiamo.html">Chi siamo</a></li>
+            <li><a href="./contatti.html">Contatti</a></li>
+        </ul>
+        
+        <div class="social">
+            <img id="facebook" src="./immagini/facebook.png" alt="facebook">
+            <img id="instagram" src="./immagini/instagram.png" alt="instagram">
+        </div>
+
+    </nav>
+
+    <section class="contatti">
+        
+        <article>
+
+            <h3>Contatti</h3>
+
+            <p>
+                Lo studio si trova in Via Fiordiloto 20, 00173 Roma
+                <br>Per informazioni: info@satiyoga.com
+                <br>Telefono 067225267
+                <br>Vi aspettiamo!
+            </p>
+
+        </article>
+
+        <form class="form" action="mailto:info@satiyoga.com" method="post">
+            
+            <h3>Prenota una lezione</h3>
+
+            <div>
+                <label for="nome">Il tuo nome</label>
+                <input type="text" name="nome" required>
+            </div>
+            
+            <div>
+                <label for="cognome">Il tuo cognome</label>
+                <input type="text" name="cognome" required>
+            </div>
+
+            <div>
+                <label for="mail">La tua email</label>
+                <input type="mail" name="mail" required>
+            </div>
+
+            <div>
+                <label for="corso">Il tipo di corso</label>
+                <input type="text" name="corso">
+            </div>
+
+            <button id="btn-contatti" type="button">Invia</button>
+
+        </form>
+
+    </section>
+    
+    <footer>
+        <p>© 2024 satiyogastudio.com</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.875;
+    letter-spacing: 0em;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+article {
+    flex-direction: column;
+    padding: 1% 10%;
+}
+
+button {
+    background-color:#9359A0;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button > a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+#btn-contatti {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin: 32px 0;
+}
+
+nav {
+    display: flex;
+    background-color: #F1E9FE;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+    padding: 20px;
+}
+
+li > a {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: #9359A0;
+}
+
+footer {
+    background-color: #F1E9FE;
+    padding: 6px;
+    text-align: center;
+}
+
+footer p {
+    padding: 0;
+    font-size: 12px;
+}
+
+#instagram {
+    width: 30px;
+    margin: 20px 20px 20px 0;
+    height: auto;
+    cursor: pointer;
+}
+
+#facebook {
+    width: 30px;
+    margin: 20px 0;
+    height: auto;
+    cursor: pointer;
+}
+
+.chisiamo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+h3 {
+    color:#9359A0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+.contatti {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+form {
+    flex-direction: column;
+    padding: 1% 10%;
+    max-width: 50%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=mail] {
+    width: 100%;
+    padding: 5px;
+}
+
+.newsletter {
+    font-weight: 600;
+    padding: 15px;
+}
+
+.corsi-A {
+    display: flex;
+    align-items: center;
+}
+
+.corsi-B {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+@media all and (max-width: 1200px) {
+
+    #img, .social {
+        display: none;
+    }
+
+    #art {
+        padding: 10% 20%;
+    }
+
+}
+
+@media all and (max-width: 870px) {
+    
+    li {
+        margin: 5px; 
+    }
+
+    .social {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+
+    #logo {
+        width: 150px;
+    }
+
+    li {
+        margin: 5px;
+        padding: 5px; 
+    }
+
+    li > a {
+        font-size: 11px;
+    }
+
+    article {
+        font-size: smaller;
+    }
+}
+
